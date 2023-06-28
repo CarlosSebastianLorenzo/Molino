@@ -1,0 +1,13 @@
+<form (ngSubmit)="onSubmit()">
+    <fieldset class="form-control">
+        <label for="nombre">Nombre</label>
+        <input 
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Agrega El Nombre de la Cuenta"
+            [(ngModel)]="nombre"
+            >
+    </fieldset>
+    <input type="submit" value="Crear">
+</form>

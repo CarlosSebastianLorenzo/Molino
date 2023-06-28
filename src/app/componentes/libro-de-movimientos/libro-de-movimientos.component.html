@@ -1,0 +1,22 @@
+<table>
+    <thead>
+        <tr>
+            <th>Fecha</th>
+            <th>Cliente</th>
+            <th>Moneda</th>
+            <th>Nro</th>
+            <th>FechaDePago</th>
+            <th>Monto</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let cuenta of cuentas">
+            <td>{{cuenta.Fecha}}</td>
+            <td>{{cuenta.Cliente}}</td>
+            <td>{{cuenta.Moneda}}</td>
+            <td>{{cuenta.Nro}}</td>
+            <td>{{cuenta.FechaDePago}}</td>
+            <td>${{cuenta.Monto}}</td>
+        </tr>
+    </tbody>
+</table>
