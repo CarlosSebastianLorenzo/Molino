@@ -1,1 +1,16 @@
-<p>saldos works!</p>
+<table>
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th>Saldo Pesos</th>
+            <th>Saldo Kg</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let cuenta of cuentas">
+            <td>{{cuenta.Cliente}}</td>
+            <td>Suma Montos</td>
+            <td>Suma kg</td>
+        </tr>
+    </tbody>
+</table>
