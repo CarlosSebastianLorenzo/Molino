@@ -7,6 +7,7 @@ import { AltaDeCuentaComponent } from './componentes/alta-de-cuenta/alta-de-cuen
 import { LibroDeMovimientosComponent } from './componentes/libro-de-movimientos/libro-de-movimientos.component';
 import { SaldosComponent } from './componentes/saldos/saldos.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { NuevoMovimientoComponent } from './componentes/nuevo-movimiento/nuevo-movimiento.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LoginComponent } from './componentes/login/login.component';
     AltaDeCuentaComponent,
     LibroDeMovimientosComponent,
     SaldosComponent,
-    LoginComponent
+    LoginComponent,
+    NuevoMovimientoComponent
   ],
   imports: [
     BrowserModule,
