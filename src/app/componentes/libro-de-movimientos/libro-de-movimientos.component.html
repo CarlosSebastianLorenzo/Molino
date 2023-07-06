@@ -10,13 +10,13 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let cuenta of cuentas">
-            <td>{{cuenta.Fecha}}</td>
-            <td>{{cuenta.Cliente}}</td>
-            <td>{{cuenta.Moneda}}</td>
-            <td>{{cuenta.Nro}}</td>
-            <td>{{cuenta.FechaDePago}}</td>
-            <td>${{cuenta.Monto}}</td>
+        <tr *ngFor="let movimiento of movimientos">
+            <td>{{movimiento.Fecha}}</td>
+            <td>{{movimiento.Cliente}}</td>
+            <td>{{movimiento.Moneda}}</td>
+            <td>{{movimiento.Nro}}</td>
+            <td>{{movimiento.FechaDePago}}</td>
+            <td>${{movimiento.Monto}}</td>
         </tr>
     </tbody>
 </table>

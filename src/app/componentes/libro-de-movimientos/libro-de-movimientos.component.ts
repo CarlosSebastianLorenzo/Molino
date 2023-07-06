@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./libro-de-movimientos.component.css']
 })
 export class LibroDeMovimientosComponent {
-  cuentas = [
+  movimientos = [
     {
       Fecha: "01/01/2015",
       Cliente: "Charreun Flavio",
