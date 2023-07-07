@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./nuevo-movimiento.component.css']
 })
 export class NuevoMovimientoComponent {
+  nombre = "";
+
+  constructor (){}
+
+  ngOnInit(): void {
+  }
+
+  onSubmit(){
+    if(this.nombre.length === 0){
+      alert("Para dar de alta una cuenta escriba un nombre");
+      return
+    }
+  }
 
 }
+
