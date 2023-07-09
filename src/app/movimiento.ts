@@ -1,9 +1,9 @@
-let Movimiento = {
-    Fecha:String,
-    Cliente: String,
-    Moneda: String,
-    Nro: String,
-    FechaDePago: Date,
-    Monto: Number,
+export interface Movimiento {
+    id?: number;
+    Fecha:string;
+    Cliente: string;
+    Moneda: string;
+    Nro: string;
+    FechaDePago: Date;
+    Monto: number;
 }
-export default Movimiento
