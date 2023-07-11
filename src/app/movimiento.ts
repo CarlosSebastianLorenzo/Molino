@@ -4,6 +4,6 @@ export interface Movimiento {
     Cliente: string;
     Moneda: string;
     Nro: string;
-    FechaDePago: Date;
+    FechaDePago: string;
     Monto: number;
 }

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Movimiento } from 'src/app/movimiento';
 
 @Component({
   selector: 'app-libro-de-movimientos',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./libro-de-movimientos.component.css']
 })
 export class LibroDeMovimientosComponent {
-  movimientos = [
+  movimientos : Movimiento[] = [
     {
       Fecha: "01/01/2015",
       Cliente: "Charreun Flavio",
