@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Movimiento } from 'src/app/movimiento';
 
 @Component({
   selector: 'app-nuevo-movimiento',
