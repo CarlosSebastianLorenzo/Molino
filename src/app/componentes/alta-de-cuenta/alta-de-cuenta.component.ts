@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Cuenta } from 'src/app/cuenta';
 
 @Component({
   selector: 'app-alta-de-cuenta',
