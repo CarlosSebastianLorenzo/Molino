@@ -14,11 +14,19 @@ export class AltaDeCuentaComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onSubmit(){
+  onSubmit():void{
     if(this.nombre.length === 0){
       alert("Para dar de alta una cuenta escriba un nombre");
       return
-    }
+    };
+
+    const nuevaCuenta:Cuenta = {
+      nombre: this.nombre
+    };
+
+    console.log(nuevaCuenta);
+
+    this.nombre = ""
   }
 
 }
