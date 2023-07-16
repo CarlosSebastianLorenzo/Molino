@@ -19,7 +19,20 @@ export class NuevoMovimientoComponent {
       alert("Para dar de alta una cuenta escriba un nombre");
       return
     }
+  
+
+    const nuevoMovimiento:Movimiento = {
+      Fecha: "01/01/2023",
+      Cliente: this.nombre,
+      Moneda: "Ch Prov BsAs",
+      Nro: "0025",
+      FechaDePago: "01/01/2015",
+      Monto: 25000
+    };
+
+    console.log(nuevoMovimiento);
+
+    this.nombre = ""
   }
 
 }
-
