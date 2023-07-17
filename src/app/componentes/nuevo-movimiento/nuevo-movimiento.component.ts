@@ -8,6 +8,7 @@ import { Movimiento } from 'src/app/movimiento';
 })
 export class NuevoMovimientoComponent {
   nombre = "";
+  fecha = "";
 
   constructor (){}
 
@@ -22,7 +23,7 @@ export class NuevoMovimientoComponent {
   
 
     const nuevoMovimiento:Movimiento = {
-      Fecha: "01/01/2023",
+      Fecha: this.fecha,
       Cliente: this.nombre,
       Moneda: "Ch Prov BsAs",
       Nro: "0025",

@@ -8,6 +8,14 @@
             placeholder="Agrega El Nombre de la Cuenta"
             [(ngModel)]="nombre"
             >
+        <label for="fecha">Fecha</label>
+        <input 
+            type="datetime-local"
+            name="fecha"
+            id="fecha"
+            placeholder="Agrega la Fecha del Movimiento"
+            [(ngModel)]="fecha"
+            >
     </fieldset>
     <input type="submit" value="Crear">
 </form>
